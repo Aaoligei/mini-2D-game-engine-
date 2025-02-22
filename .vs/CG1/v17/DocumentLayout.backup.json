@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9910DEB6-6213-4C30-B181-1E2030669BF7}|CG1\\CG1.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\CG1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9910DEB6-6213-4C30-B181-1E2030669BF7}|CG1\\CG1.vcxproj|solutionrelative:CG1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\CG1\\main.cpp",
+              "RelativeDocumentMoniker": "CG1\\main.cpp",
+              "ToolTip": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\CG1\\main.cpp",
+              "RelativeToolTip": "CG1\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-22T11:32:01.495Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
