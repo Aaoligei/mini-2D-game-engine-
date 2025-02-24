@@ -21,9 +21,15 @@
     <ClCompile Include="core\Engine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Graphics\TextureManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TextureManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

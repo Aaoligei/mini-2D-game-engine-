@@ -1,5 +1,6 @@
 #include "Engine.h"
 #include<iostream>
+#include "../Graphics/TextureManager.h"
 
 Engine* Engine::s_Instance = nullptr;
 
@@ -21,11 +22,18 @@ bool Engine::Init()
 		SDL_Log("Failed to create renderer: %s", SDL_GetError());
 		return false;
 	}
+
+	TextureManager::GetInstance()->Load("1", "assets/image.png");
 	return m_IsRunning = true;
 }
 
 void Engine::Clean()
 {
+	SDL_DestroyWindow(m_Window);
+	SDL_DestroyRenderer(m_Renderer);
+	TextureManager::GetInstance()->Clean();
+	SDL_Quit();
+	IMG_Quit();
 }
 
 void Engine::Quit()
@@ -35,13 +43,15 @@ void Engine::Quit()
 
 void Engine::Update()
 {
-	std::cout << "Updating..." << std::endl;
+	
 }
 
 void Engine::Render()
 {
 	SDL_SetRenderDrawColor(m_Renderer, 100, 100, 0, 255);
 	SDL_RenderClear(m_Renderer);
+	
+	TextureManager::GetInstance()->Draw("1",0, 0, 512, 512);
 	SDL_RenderPresent(m_Renderer);
 }
 
@@ -51,5 +61,6 @@ void Engine::Events()
 	SDL_PollEvent(&event);
 	switch (event.type) {
 	case SDL_QUIT:Quit();
+		break;
 	}
 }

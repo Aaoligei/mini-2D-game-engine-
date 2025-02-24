@@ -136,9 +136,11 @@
   <ItemGroup>
     <ClCompile Include="core\Engine.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Graphics\TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h" />
+    <ClInclude Include="Graphics\TextureManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
