@@ -140,7 +140,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h" />
+    <ClInclude Include="Object\GameObject.h" />
     <ClInclude Include="Graphics\TextureManager.h" />
+    <ClInclude Include="Object\IObject.h" />
+    <ClInclude Include="Physics\Transform.h" />
+    <ClInclude Include="Physics\Vector2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
