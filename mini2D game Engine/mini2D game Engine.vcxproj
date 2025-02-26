@@ -108,6 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,17 +135,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animation\Animation.cpp" />
     <ClCompile Include="core\Engine.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Graphics\TextureManager.cpp" />
+    <ClCompile Include="Characters\Warrior.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Animation\Animation.h" />
+    <ClInclude Include="Characters\Character.h" />
     <ClInclude Include="core\Engine.h" />
     <ClInclude Include="Object\GameObject.h" />
     <ClInclude Include="Graphics\TextureManager.h" />
     <ClInclude Include="Object\IObject.h" />
     <ClInclude Include="Physics\Transform.h" />
     <ClInclude Include="Physics\Vector2D.h" />
+    <ClInclude Include="Characters\Warrior.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\My project\Assets\Image\Skeleton\Skeleton Walk.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -24,6 +24,12 @@
     <ClCompile Include="Graphics\TextureManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Characters\Warrior.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h">
@@ -44,5 +50,19 @@
     <ClInclude Include="Object\GameObject.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Characters\Character.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Characters\Warrior.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\My project\Assets\Image\Skeleton\Skeleton Walk.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

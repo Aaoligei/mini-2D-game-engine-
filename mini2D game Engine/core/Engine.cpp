@@ -1,8 +1,10 @@
 #include "Engine.h"
 #include<iostream>
 #include "../Graphics/TextureManager.h"
+#include"../Characters/Warrior.h"
 
 Engine* Engine::s_Instance = nullptr;
+Warrior* player = nullptr;
 
 bool Engine::Init()
 {
@@ -23,7 +25,8 @@ bool Engine::Init()
 		return false;
 	}
 
-	TextureManager::GetInstance()->Load("1", "assets/image.png");
+	TextureManager::GetInstance()->Load("player", "assets/walk.png");
+	player = new Warrior(new Properties("player", 100, 200, 22, 33));
 	return m_IsRunning = true;
 }
 
@@ -43,15 +46,15 @@ void Engine::Quit()
 
 void Engine::Update()
 {
-	
+	player->Update(0);
 }
 
 void Engine::Render()
 {
-	SDL_SetRenderDrawColor(m_Renderer, 100, 100, 0, 255);
 	SDL_RenderClear(m_Renderer);
+	SDL_SetRenderDrawColor(m_Renderer, 100, 100, 0, 255);
 	
-	TextureManager::GetInstance()->Draw("1",0, 0, 512, 512);
+	player->Draw();
 	SDL_RenderPresent(m_Renderer);
 }
 
