@@ -1,23 +1,7 @@
-﻿  Animation.cpp
-C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Animation\Animation.cpp(11,59): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Animation\Animation.cpp(11,56): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-  Engine.cpp
-C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Object\GameObject.h(17,6): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
-  (编译源文件“core/Engine.cpp”)
-  
-C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Object\GameObject.h(17,11): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
-  (编译源文件“core/Engine.cpp”)
-  
-  Warrior.cpp
-C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Object\GameObject.h(17,6): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
-  (编译源文件“Characters/Warrior.cpp”)
-  
-C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Object\GameObject.h(17,11): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
-  (编译源文件“Characters/Warrior.cpp”)
-  
+﻿  Input.cpp
   正在生成代码
-  131 of 228 functions (57.5%) were compiled, the rest were copied from previous compilation.
-    12 functions were new in current compilation
-    19 functions had inline decision re-evaluated but remain unchanged
+  0 of 242 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   mini2D game Engine.vcxproj -> C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\x64\Release\mini2D game Engine.exe

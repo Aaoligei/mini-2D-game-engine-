@@ -2,6 +2,7 @@
 #include<iostream>
 #include "../Graphics/TextureManager.h"
 #include"../Characters/Warrior.h"
+#include"../Inputs/Input.h"
 
 Engine* Engine::s_Instance = nullptr;
 Warrior* player = nullptr;
@@ -47,6 +48,9 @@ void Engine::Quit()
 void Engine::Update()
 {
 	player->Update(0);
+	if (Input::GetInstance()->GetKeyDown(SDL_SCANCODE_A)) {
+		SDL_Log("asdasdad");
+	}
 }
 
 void Engine::Render()
@@ -60,10 +64,5 @@ void Engine::Render()
 
 void Engine::Events()
 {
-	SDL_Event event;
-	SDL_PollEvent(&event);
-	switch (event.type) {
-	case SDL_QUIT:Quit();
-		break;
-	}
+	Input::GetInstance()->Listen();
 }

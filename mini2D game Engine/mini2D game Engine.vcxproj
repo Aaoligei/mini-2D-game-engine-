@@ -137,6 +137,7 @@
   <ItemGroup>
     <ClCompile Include="Animation\Animation.cpp" />
     <ClCompile Include="core\Engine.cpp" />
+    <ClCompile Include="Inputs\Input.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Graphics\TextureManager.cpp" />
     <ClCompile Include="Characters\Warrior.cpp" />
@@ -145,12 +146,14 @@
     <ClInclude Include="Animation\Animation.h" />
     <ClInclude Include="Characters\Character.h" />
     <ClInclude Include="core\Engine.h" />
+    <ClInclude Include="Inputs\Input.h" />
     <ClInclude Include="Object\GameObject.h" />
     <ClInclude Include="Graphics\TextureManager.h" />
     <ClInclude Include="Object\IObject.h" />
     <ClInclude Include="Physics\Transform.h" />
     <ClInclude Include="Physics\Vector2D.h" />
     <ClInclude Include="Characters\Warrior.h" />
+    <ClInclude Include="Physics\RigidBody.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\My project\Assets\Image\Skeleton\Skeleton Walk.png" />

@@ -30,6 +30,9 @@
     <ClCompile Include="Animation\Animation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Inputs\Input.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h">
@@ -57,6 +60,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Animation\Animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\RigidBody.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputs\Input.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

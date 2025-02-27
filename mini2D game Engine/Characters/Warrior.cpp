@@ -16,4 +16,7 @@ void Warrior::Clean()
 void Warrior::Update(float dt)
 {
 	m_Animation->Update();
+	m_RigidBody->Update(0.2);
+	m_RigidBody->ApplyForceX(5);
+	m_Transform->Translate(Vector2D(m_RigidBody->GetPosition()));
 }
