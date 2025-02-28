@@ -141,6 +141,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Graphics\TextureManager.cpp" />
     <ClCompile Include="Characters\Warrior.cpp" />
+    <ClCompile Include="Timer\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation\Animation.h" />
@@ -154,6 +155,7 @@
     <ClInclude Include="Physics\Vector2D.h" />
     <ClInclude Include="Characters\Warrior.h" />
     <ClInclude Include="Physics\RigidBody.h" />
+    <ClInclude Include="Timer\Timer.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\My project\Assets\Image\Skeleton\Skeleton Walk.png" />

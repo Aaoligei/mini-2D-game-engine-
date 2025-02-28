@@ -10,7 +10,7 @@ public:
     Warrior(Properties* props) :Character(props) {
         m_RigidBody = new RigidBody();
         m_Animation = new Animation();
-        m_Animation->SetProps(m_TextureID, 1, 13, 80, SDL_FLIP_NONE);
+        m_Animation->SetProps(m_TextureID, 1, 11, 80, SDL_FLIP_NONE);
     }
 
     virtual void Draw() override;

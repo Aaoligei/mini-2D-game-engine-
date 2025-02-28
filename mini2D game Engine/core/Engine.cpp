@@ -3,6 +3,7 @@
 #include "../Graphics/TextureManager.h"
 #include"../Characters/Warrior.h"
 #include"../Inputs/Input.h"
+#include"../Timer/Timer.h"
 
 Engine* Engine::s_Instance = nullptr;
 Warrior* player = nullptr;
@@ -26,8 +27,9 @@ bool Engine::Init()
 		return false;
 	}
 
-	TextureManager::GetInstance()->Load("player", "assets/walk.png");
-	player = new Warrior(new Properties("player", 100, 200, 22, 33));
+	TextureManager::GetInstance()->Load("player", "assets/Idle.png");
+	TextureManager::GetInstance()->Load("Walk", "assets/walk.png");
+	player = new Warrior(new Properties("Walk", 100, 200, 22, 32));
 	return m_IsRunning = true;
 }
 
@@ -47,10 +49,9 @@ void Engine::Quit()
 
 void Engine::Update()
 {
-	player->Update(0);
-	if (Input::GetInstance()->GetKeyDown(SDL_SCANCODE_A)) {
-		SDL_Log("asdasdad");
-	}
+	float dt = Timer::GetInstance()->GetDeltaTime();
+	player->Update(dt);
+	
 }
 
 void Engine::Render()
