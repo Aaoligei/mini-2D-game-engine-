@@ -141,6 +141,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Graphics\TextureManager.cpp" />
     <ClCompile Include="Characters\Warrior.cpp" />
+    <ClCompile Include="Map\TileLayer.cpp" />
     <ClCompile Include="Timer\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,7 @@
     <ClInclude Include="Characters\Character.h" />
     <ClInclude Include="core\Engine.h" />
     <ClInclude Include="Inputs\Input.h" />
+    <ClInclude Include="Map\GameMap.h" />
     <ClInclude Include="Object\GameObject.h" />
     <ClInclude Include="Graphics\TextureManager.h" />
     <ClInclude Include="Object\IObject.h" />
@@ -155,6 +157,8 @@
     <ClInclude Include="Physics\Vector2D.h" />
     <ClInclude Include="Characters\Warrior.h" />
     <ClInclude Include="Physics\RigidBody.h" />
+    <ClInclude Include="Map\Layer.h" />
+    <ClInclude Include="Map\TileLayer.h" />
     <ClInclude Include="Timer\Timer.h" />
   </ItemGroup>
   <ItemGroup>

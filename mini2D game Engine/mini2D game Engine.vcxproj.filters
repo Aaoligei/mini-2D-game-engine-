@@ -36,6 +36,9 @@
     <ClCompile Include="Timer\Timer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Map\TileLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h">
@@ -72,6 +75,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Timer\Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\Layer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\GameMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\TileLayer.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
