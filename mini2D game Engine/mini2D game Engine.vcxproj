@@ -71,8 +71,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\libs\SDL2_image-2.8.5\include;C:\libs\SDL2-2.32.0\include;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\vendor\tinyxml;C:\libs\SDL2_image-2.8.5\include;C:\libs\SDL2-2.32.0\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\libs\SDL2_image-2.8.5\lib\x64;C:\libs\SDL2-2.32.0\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\vendor\tinyxml;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -141,14 +144,20 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Graphics\TextureManager.cpp" />
     <ClCompile Include="Characters\Warrior.cpp" />
+    <ClCompile Include="Map\MapParser.cpp" />
     <ClCompile Include="Map\TileLayer.cpp" />
     <ClCompile Include="Timer\Timer.cpp" />
+    <ClCompile Include="vendor\tinyxml\tinystr.cpp" />
+    <ClCompile Include="vendor\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="vendor\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="vendor\tinyxml\tinyxmlparser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation\Animation.h" />
     <ClInclude Include="Characters\Character.h" />
     <ClInclude Include="core\Engine.h" />
     <ClInclude Include="Inputs\Input.h" />
+    <ClInclude Include="Map\MapParser.h" />
     <ClInclude Include="Map\GameMap.h" />
     <ClInclude Include="Object\GameObject.h" />
     <ClInclude Include="Graphics\TextureManager.h" />
@@ -160,6 +169,8 @@
     <ClInclude Include="Map\Layer.h" />
     <ClInclude Include="Map\TileLayer.h" />
     <ClInclude Include="Timer\Timer.h" />
+    <ClInclude Include="vendor\tinyxml\tinystr.h" />
+    <ClInclude Include="vendor\tinyxml\tinyxml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\My project\Assets\Image\Skeleton\Skeleton Walk.png" />

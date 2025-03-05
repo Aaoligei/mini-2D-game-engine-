@@ -4,6 +4,7 @@
 #include"../Characters/Warrior.h"
 #include"../Inputs/Input.h"
 #include"../Timer/Timer.h"
+#include"../Map/MapParser.h"
 
 Engine* Engine::s_Instance = nullptr;
 Warrior* player = nullptr;
@@ -26,6 +27,13 @@ bool Engine::Init()
 		SDL_Log("Failed to create renderer: %s", SDL_GetError());
 		return false;
 	}
+
+	if (!MapParser::GetInstance()->Load()) {
+		std::cout << "Failed to load map" << std::endl;
+		return false;
+	}
+
+	m_LevelMap = MapParser::GetInstance()->GetMap("Map");
 
 	TextureManager::GetInstance()->Load("player", "assets/Idle.png");
 	TextureManager::GetInstance()->Load("Walk", "assets/walk.png");
@@ -51,16 +59,19 @@ void Engine::Update()
 {
 	float dt = Timer::GetInstance()->GetDeltaTime();
 	player->Update(dt);
-	
+	//m_LevelMap->Update();
 }
 
 void Engine::Render()
 {
 	SDL_RenderClear(m_Renderer);
-	SDL_SetRenderDrawColor(m_Renderer, 100, 100, 0, 255);
-	
+	SDL_SetRenderDrawColor(m_Renderer, 0, 100, 0, 255);
+
+	m_LevelMap->Render();
 	player->Draw();
 	SDL_RenderPresent(m_Renderer);
+
+	
 }
 
 void Engine::Events()

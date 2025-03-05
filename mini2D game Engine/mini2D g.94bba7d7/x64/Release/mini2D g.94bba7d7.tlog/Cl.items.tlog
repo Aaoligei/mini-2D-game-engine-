@@ -4,4 +4,10 @@ C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Inputs\In
 C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\main.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\main.obj
 C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Graphics\TextureManager.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\TextureManager.obj
 C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Characters\Warrior.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\Warrior.obj
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Map\MapParser.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\MapParser.obj
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Map\TileLayer.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\TileLayer.obj
 C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Timer\Timer.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\Timer.obj
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\vendor\tinyxml\tinystr.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\tinystr.obj
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\vendor\tinyxml\tinyxml.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\tinyxml.obj
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\vendor\tinyxml\tinyxmlerror.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\tinyxmlerror.obj
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\vendor\tinyxml\tinyxmlparser.cpp;C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\mini2D g.94bba7d7\x64\Release\tinyxmlparser.obj

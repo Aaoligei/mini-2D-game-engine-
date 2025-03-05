@@ -39,6 +39,21 @@
     <ClCompile Include="Map\TileLayer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Map\MapParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\tinyxml\tinystr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\tinyxml\tinyxml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\tinyxml\tinyxmlparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\tinyxml\tinyxmlerror.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h">
@@ -84,6 +99,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Map\TileLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\MapParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\tinyxml\tinystr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\tinyxml\tinyxml.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

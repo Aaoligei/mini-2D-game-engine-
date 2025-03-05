@@ -1,1 +1,36 @@
-﻿
+﻿  Animation.cpp
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Animation\Animation.h(3,9): error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  (编译源文件“Animation/Animation.cpp”)
+  
+  Engine.cpp
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\core\Engine.h(2,9): error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  (编译源文件“core/Engine.cpp”)
+  
+  Input.cpp
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Inputs\Input.h(2,9): error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  (编译源文件“Inputs/Input.cpp”)
+  
+  main.cpp
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\core\Engine.h(2,9): error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  (编译源文件“main.cpp”)
+  
+  TextureManager.cpp
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Graphics\TextureManager.h(4,9): error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  (编译源文件“Graphics/TextureManager.cpp”)
+  
+  Warrior.cpp
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Object\GameObject.h(5,10): error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  (编译源文件“Characters/Warrior.cpp”)
+  
+  MapParser.cpp
+  TileLayer.cpp
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Graphics\TextureManager.h(4,9): error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  (编译源文件“Map/TileLayer.cpp”)
+  
+  Timer.cpp
+C:\Users\25342\OneDrive\桌面\mini-2D-game-engine-\mini2D game Engine\Timer\Timer.cpp(2,9): error C1083: 无法打开包括文件: “SDL.h”: No such file or directory
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  正在生成代码...
