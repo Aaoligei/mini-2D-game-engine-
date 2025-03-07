@@ -20,3 +20,4 @@ private:
 		
 };
 
+typedef Vector2D Point;

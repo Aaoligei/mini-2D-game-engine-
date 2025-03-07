@@ -5,6 +5,7 @@
 #include"../Inputs/Input.h"
 #include"../Timer/Timer.h"
 #include"../Map/MapParser.h"
+#include"../Camera/Camera.h"
 
 Engine* Engine::s_Instance = nullptr;
 Warrior* player = nullptr;
@@ -37,7 +38,12 @@ bool Engine::Init()
 
 	TextureManager::GetInstance()->Load("player", "assets/Idle.png");
 	TextureManager::GetInstance()->Load("Walk", "assets/walk.png");
+	TextureManager::GetInstance()->Load("bg", "assets/images/bg.png");
+
 	player = new Warrior(new Properties("Walk", 100, 200, 22, 32));
+
+	Camera::GetInstance()->SetTarget(player->GetOrigin());
+
 	return m_IsRunning = true;
 }
 
@@ -60,6 +66,8 @@ void Engine::Update()
 	float dt = Timer::GetInstance()->GetDeltaTime();
 	player->Update(dt);
 	//m_LevelMap->Update();
+
+	Camera::GetInstance()->Update(dt);
 }
 
 void Engine::Render()
@@ -67,6 +75,7 @@ void Engine::Render()
 	SDL_RenderClear(m_Renderer);
 	SDL_SetRenderDrawColor(m_Renderer, 0, 100, 0, 255);
 
+	TextureManager::GetInstance()->Draw("bg", 0, 0, 3500, 1961);
 	m_LevelMap->Render();
 	player->Draw();
 	SDL_RenderPresent(m_Renderer);

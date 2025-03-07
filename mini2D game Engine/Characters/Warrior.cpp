@@ -34,4 +34,7 @@ void Warrior::Update(float dt)
 	}
 	m_RigidBody->Update(dt);
 	m_Transform->TranslateX(Vector2D(m_RigidBody->GetPosition()).X);
+
+	m_Origin->X = m_Transform->X + m_Width / 2.0f;
+	m_Origin->Y = m_Transform->Y + m_Height / 2.0f;
 }
