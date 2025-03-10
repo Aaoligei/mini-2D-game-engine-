@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClCompile Include="Animation\Animation.cpp" />
     <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="Collision\CollisionHandler.cpp" />
     <ClCompile Include="core\Engine.cpp" />
     <ClCompile Include="Inputs\Input.cpp" />
     <ClCompile Include="main.cpp" />
@@ -157,6 +158,8 @@
     <ClInclude Include="Animation\Animation.h" />
     <ClInclude Include="Camera\Camera.h" />
     <ClInclude Include="Characters\Character.h" />
+    <ClInclude Include="Physics\Collider.h" />
+    <ClInclude Include="Collision\CollisionHandler.h" />
     <ClInclude Include="core\Engine.h" />
     <ClInclude Include="Inputs\Input.h" />
     <ClInclude Include="Map\MapParser.h" />
