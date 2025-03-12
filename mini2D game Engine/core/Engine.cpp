@@ -40,7 +40,7 @@ bool Engine::Init()
 	TextureManager::GetInstance()->Load("Walk", "assets/walk.png");
 	TextureManager::GetInstance()->Load("bg", "assets/images/bg.png");
 
-	player = new Warrior(new Properties("Walk", 100, 200, 22, 32));
+	player = new Warrior(new Properties("Walk", 300, 300, 22, 32));
 
 	Camera::GetInstance()->SetTarget(player->GetOrigin());
 

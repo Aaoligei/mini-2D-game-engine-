@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Collision\\CollisionHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|solutionrelative:Collision\\CollisionHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Characters\\Warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|solutionrelative:Characters\\Warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Collision\\CollisionHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|solutionrelative:Collision\\CollisionHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Characters\\Warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|solutionrelative:Characters\\Warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Physics\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|solutionrelative:Physics\\Collider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\core\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|solutionrelative:core\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\core\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|solutionrelative:core\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Collision\\CollisionHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94BBA7D7-3FEA-45A3-A3D0-AF1A1B29B1BE}|mini2D game Engine.vcxproj|solutionrelative:Collision\\CollisionHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +30,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Collider.h",
-              "DocumentMoniker": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Physics\\Collider.h",
-              "RelativeDocumentMoniker": "Physics\\Collider.h",
-              "ToolTip": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Physics\\Collider.h",
-              "RelativeToolTip": "Physics\\Collider.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\core\\Engine.cpp",
+              "RelativeDocumentMoniker": "core\\Engine.cpp",
+              "ToolTip": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\core\\Engine.cpp",
+              "RelativeToolTip": "core\\Engine.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvyoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T05:12:01.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Warrior.h",
+              "DocumentMoniker": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Characters\\Warrior.h",
+              "RelativeDocumentMoniker": "Characters\\Warrior.h",
+              "ToolTip": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Characters\\Warrior.h*",
+              "RelativeToolTip": "Characters\\Warrior.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-10T03:39:20.047Z",
+              "WhenOpened": "2025-03-12T05:00:34.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Warrior.cpp",
+              "DocumentMoniker": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Characters\\Warrior.cpp",
+              "RelativeDocumentMoniker": "Characters\\Warrior.cpp",
+              "ToolTip": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Characters\\Warrior.cpp",
+              "RelativeToolTip": "Characters\\Warrior.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T04:23:43.787Z",
               "EditorCaption": ""
             },
             {
@@ -56,30 +94,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CollisionHandler.cpp",
-              "DocumentMoniker": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Collision\\CollisionHandler.cpp",
-              "RelativeDocumentMoniker": "Collision\\CollisionHandler.cpp",
-              "ToolTip": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Collision\\CollisionHandler.cpp",
-              "RelativeToolTip": "Collision\\CollisionHandler.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-10T02:48:20.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CollisionHandler.h",
               "DocumentMoniker": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Collision\\CollisionHandler.h",
               "RelativeDocumentMoniker": "Collision\\CollisionHandler.h",
-              "ToolTip": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Collision\\CollisionHandler.h*",
-              "RelativeToolTip": "Collision\\CollisionHandler.h*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBcAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\25342\\OneDrive\\\u684C\u9762\\mini-2D-game-engine-\\mini2D game Engine\\Collision\\CollisionHandler.h",
+              "RelativeToolTip": "Collision\\CollisionHandler.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-10T02:48:19.444Z",
               "EditorCaption": ""
