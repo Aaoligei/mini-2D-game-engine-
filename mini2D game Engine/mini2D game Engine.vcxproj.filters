@@ -60,6 +60,12 @@
     <ClCompile Include="Collision\CollisionHandler.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Animation\SpriteAnimation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\SeqAnimation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\Engine.h">
@@ -123,6 +129,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Physics\Collider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimationNew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\SpriteAnimation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\SeqAnimation.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

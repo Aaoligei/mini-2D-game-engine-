@@ -148,6 +148,8 @@
     <ClCompile Include="Characters\Warrior.cpp" />
     <ClCompile Include="Map\MapParser.cpp" />
     <ClCompile Include="Map\TileLayer.cpp" />
+    <ClCompile Include="Animation\SpriteAnimation.cpp" />
+    <ClCompile Include="Animation\SeqAnimation.cpp" />
     <ClCompile Include="Timer\Timer.cpp" />
     <ClCompile Include="vendor\tinyxml\tinystr.cpp" />
     <ClCompile Include="vendor\tinyxml\tinyxml.cpp" />
@@ -156,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation\Animation.h" />
+    <ClInclude Include="Animation\AnimationNew.h" />
     <ClInclude Include="Camera\Camera.h" />
     <ClInclude Include="Characters\Character.h" />
     <ClInclude Include="Physics\Collider.h" />
@@ -173,6 +176,8 @@
     <ClInclude Include="Physics\RigidBody.h" />
     <ClInclude Include="Map\Layer.h" />
     <ClInclude Include="Map\TileLayer.h" />
+    <ClInclude Include="Animation\SpriteAnimation.h" />
+    <ClInclude Include="Animation\SeqAnimation.h" />
     <ClInclude Include="Timer\Timer.h" />
     <ClInclude Include="vendor\tinyxml\tinystr.h" />
     <ClInclude Include="vendor\tinyxml\tinyxml.h" />
